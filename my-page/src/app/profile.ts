@@ -1,5 +1,6 @@
 export interface Profile {
-language: any;
+languageEN: any;
+languageES: any;
 greeting: string;
 description: string;
 link: any;

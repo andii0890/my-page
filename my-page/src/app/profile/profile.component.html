@@ -1,5 +1,11 @@
-<div>{{ profile.language }}</div>
+<div class="mat-caption">
+	<mat-button-toggle-group>
+		<mat-button-toggle>{{ profile.languageES }}</mat-button-toggle>
+		<mat-button-toggle>{{ profile.languageEN }}</mat-button-toggle>
+	</mat-button-toggle-group>
+		
+</div>
 <h1>{{ profile.greeting }}</h1>
-<div>{{ profile.description }}</div>
-<div>{{ profile.link }}</div>
+<div class="mat-headline">{{ profile.description }}</div>
+<button class="mat-body-1" color="accent" mat-button>{{ profile.link }}</button>
 
