@@ -11,7 +11,7 @@ export class ProfileComponent implements OnInit {
   profile: Profile = {
     languageEN: 'EN',
     languageES: 'ES',
-    greeting: 'Hi. I\'m Andrea',
+    greeting: 'Hi.\r\n I\'m Andrea',
     description: 'Trainee Developer Engineer actually working in Unosquare.',
     link: 'Please show me what are you working on.'
   };

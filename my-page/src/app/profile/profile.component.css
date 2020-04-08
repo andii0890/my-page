@@ -1,0 +1,15 @@
+.mat-button-toggle-group {
+	display: flex;
+	justify-content: flex-end;
+	background-color: #263238;
+}
+
+.left-content {
+	background-color: #263238;
+}
+
+.right-content {
+	background-color: #455A64;
+	color: #ffffff;
+}
+

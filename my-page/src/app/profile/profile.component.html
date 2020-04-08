@@ -1,11 +1,34 @@
+<!-- Languagues -->
 <div class="mat-caption">
-	<mat-button-toggle-group>
-		<mat-button-toggle>{{ profile.languageES }}</mat-button-toggle>
-		<mat-button-toggle>{{ profile.languageEN }}</mat-button-toggle>
-	</mat-button-toggle-group>
-		
+		<mat-button-toggle-group>
+			<mat-button-toggle>{{ profile.languageES }}</mat-button-toggle>
+			<mat-button-toggle>{{ profile.languageEN }}</mat-button-toggle>
+		</mat-button-toggle-group>		
 </div>
-<h1>{{ profile.greeting }}</h1>
-<div class="mat-headline">{{ profile.description }}</div>
-<button class="mat-body-1" color="accent" mat-button>{{ profile.link }}</button>
 
+<mat-grid-list cols="3" rowHeight="650px" gutterSize="0px">
+
+<!-- Image -->
+
+		<mat-grid-tile  class="left-content">
+
+			<div id="profile-image">
+				<img src="../../assets/profile-2398782_1280.png" alt="profile-image" width="270px" height="270px">
+			</div>
+
+		</mat-grid-tile>
+			
+		
+<!-- Content -->
+	<mat-grid-tile colspan="2" class="right-content">
+		<div>	
+				<h1>{{ profile.greeting }}</h1>
+				
+				<div class="mat-headline">{{ profile.description }}</div>
+				
+				<button class="mat-body-1" color="accent" mat-button>{{ profile.link }}</button>		
+		</div>	
+
+	</mat-grid-tile>
+
+</mat-grid-list>

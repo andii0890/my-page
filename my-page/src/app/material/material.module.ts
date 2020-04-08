@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
-import { MatButtonModule } from '@angular/material';
-import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatButtonModule, MatButtonToggleModule } from '@angular/material';
+import { MatGridListModule } from '@angular/material/grid-list';
 
-const MaterialComponents =[
+
+const MaterialComponents = [
   MatButtonModule,
-  MatButtonToggleModule
+  MatButtonToggleModule,
+  MatGridListModule
 ]
 
 @NgModule({
