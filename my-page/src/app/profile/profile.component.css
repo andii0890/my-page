@@ -1,15 +1,45 @@
-.mat-button-toggle-group {
+.wrapper {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	grid-template-rows: 100%;
+	height: 500px;
+}
+.left-side {	
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
+	align-items: center;
 	background-color: #263238;
 }
 
-.left-content {
-	background-color: #263238;
-}
-
-.right-content {
+.right-side {
+	display: flex;
+	flex-direction: column;
 	background-color: #455A64;
 	color: #ffffff;
+}
+
+.language {	
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.Content {
+	height: 333px;
+}
+
+.greeting{
+	margin-left: 55px;
+}
+
+.description .mat-headline{
+	margin-left: 55px;
+	font: 400 20px/32px Roboto,"Helvetica Neue",sans-serif;
+
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 }
 

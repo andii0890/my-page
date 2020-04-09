@@ -1,34 +1,30 @@
-<!-- Languagues -->
-<div class="mat-caption">
-		<mat-button-toggle-group>
-			<mat-button-toggle>{{ profile.languageES }}</mat-button-toggle>
-			<mat-button-toggle>{{ profile.languageEN }}</mat-button-toggle>
-		</mat-button-toggle-group>		
-</div>
+<div class="wrapper">
 
-<mat-grid-list cols="3" rowHeight="650px" gutterSize="0px">
-
-<!-- Image -->
-
-		<mat-grid-tile  class="left-content">
-
-			<div id="profile-image">
-				<img src="../../assets/profile-2398782_1280.png" alt="profile-image" width="270px" height="270px">
-			</div>
-
-		</mat-grid-tile>
-			
-		
-<!-- Content -->
-	<mat-grid-tile colspan="2" class="right-content">
-		<div>	
+	<div class="left-side">
+		<!-- Image -->
+		<div class="image">
+			<img src="../../assets/profile-2398782_1280.png" alt="profile-image" width="270px" height="270px">
+		</div>
+	</div>
+	
+	<div class="right-side">
+		<!-- Languagues -->
+		<div class="language">
+			<button class="mat-body-1" color="accent" mat-button>{{ profile.language }}</button>		
+		</div>
+		<div class="Content">
+			<!-- Content -->
+			<div class="greeting">
 				<h1>{{ profile.greeting }}</h1>
-				
+				<h1>{{ profile.greeting2 }}</h1>
+			</div>
+			<div class="description">
 				<div class="mat-headline">{{ profile.description }}</div>
-				
-				<button class="mat-body-1" color="accent" mat-button>{{ profile.link }}</button>		
-		</div>	
-
-	</mat-grid-tile>
-
-</mat-grid-list>
+			</div>
+			<!-- Link -->
+			<div class="button">
+				<button  color="accent" mat-button>{{ profile.link }}</button>		
+			</div>
+		</div>
+	</div>
+</div>

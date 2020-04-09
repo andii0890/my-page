@@ -9,9 +9,9 @@ import { Profile } from '../profile';
 export class ProfileComponent implements OnInit {
 
   profile: Profile = {
-    languageEN: 'EN',
-    languageES: 'ES',
-    greeting: 'Hi.\r\n I\'m Andrea',
+    language: 'EN/ES',
+    greeting: 'Hi.',
+    greeting2: 'I\'m Andrea',
     description: 'Trainee Developer Engineer actually working in Unosquare.',
     link: 'Please show me what are you working on.'
   };
