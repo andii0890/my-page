@@ -10,13 +10,13 @@
 	"about": {
 		"first_paragraph": "Who I am?",
 		"paragraph_description1": {
-			"paragraph_one": "As a child, I developed a special liking for video games and animated films, inspiring myself to develop my drawing skills and grow my interest in technology. Over time, I developed in completely different areas, until one day It gave me the opportunity to fully enter the world of technology: the world of programming. Now I'm a 29-year-old girl, completely immersed in the world of learning. Every day I find enough motivation to develop myself professionally and someday reach my objective: To develop myself in the digital world: Animation and videogames .",
+			"paragraph_one": "As a child, I developed a special liking for video games and animated films, inspiring myself to develop my drawing skills and grow my interest in technology. Over time, I developed in completely different areas, until one day It gave me the opportunity to fully enter the world of technology: the world of programming. Now I'm a 29-year-old girl, completely immersed in the world of learning. Every day I find enough motivation to develop myself professionally and someday reach my objective: To develop myself in the digital world: Animation and videogames ."
 		},
 		"paragraph_description2": {
-			"paragraph_two": "I am currently a practitioner at Unosquare, a company dedicated to offering Software engineering services, where I am learning development technologies such as JavaScript, Typescript, and libraries such as Angular JS, RxJS and other Front-End technologies. I also work in my time Free in a small freelance project in development where I implement React, Javascript, Git and GitLab. I am also a self-taught learner through platforms like Platzi and Udemy, where I have learned Boostrap, Git & GitHub, Unix terminal, Node.js, HTML, CSS, SQL and MYSQL.",
+			"paragraph_two": "I am currently a practitioner at Unosquare, a company dedicated to offering Software engineering services, where I am learning development technologies such as JavaScript, Typescript, and libraries such as Angular JS, RxJS and other Front-End technologies. I also work in my time Free in a small freelance project in development where I implement React, Javascript, Git and GitLab. I am also a self-taught learner through platforms like Platzi and Udemy, where I have learned Boostrap, Git & GitHub, Unix terminal, Node.js, HTML, CSS, SQL and MYSQL."
 		}, 
 		"paragraph_description3": {
-			"paragraph_three": "If I can and I know how to do it, or I can learn it, why not to try it?",
+			"paragraph_three": "If I can and I know how to do it, or I can learn it, why not to try it?"
 		},
 		"graphic": {
 			"abilities":"abilities",
