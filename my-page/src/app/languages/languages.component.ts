@@ -9,6 +9,13 @@ export class LanguagesComponent implements OnInit {
 
   constructor() { }
 
+  value = '';
+
+  onNameChange(value: string) {
+    //this.value = value;
+    console.log(value)
+	}
+
   ngOnInit() {
   }
 
