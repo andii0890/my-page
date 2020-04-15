@@ -8,13 +8,17 @@ import { ProfileComponent } from './profile/profile.component';
 import { MaterialModule } from './material/material.module';
 import { AboutComponent } from './about/about.component';
 import { LanguagesComponent } from './languages/languages.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     AboutComponent,
-    LanguagesComponent
+    LanguagesComponent,
+    WorkExperienceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
