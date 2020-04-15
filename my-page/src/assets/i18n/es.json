@@ -33,21 +33,21 @@
 	"work_experience": {
 	
 		"company1": "Unosquare",
-		"job position":"Trainee Software Developer",
+		"job_position":"Trainee Software Developer",
 		"date": "Ene 2020 - Actualmente",
 		"description":""
 	},
 	"work_experience2": {
 	
 		"company2": "Maskot",
-		"job position":"Trainee Software Developer",
+		"job_position":"Trainee Software Developer",
 		"date": "Ene 2020 - Now",
 		"description":""
 	},
 	"work_experience3": {
 	
 		"company3": "Other",
-		"job position":"Trainee Software Developer",
+		"job_position": "Trainee Software Developer",
 		"date": "Ene 2020 - Now",
 		"description":""
 	},
