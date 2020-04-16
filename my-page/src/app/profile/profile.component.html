@@ -10,20 +10,20 @@
 	<div class="right-side">
 		<!-- Languagues -->
 		<div class="language">
-			<button class="mat-body-1" color="accent" mat-button>{{ profile.language }}</button>		
+			<button (click)="changeLanguage.emit()" class="mat-body-1" color="accent" mat-button>{{ currentLang }}</button>		
 		</div>
 		<div class="Content">
 			<!-- Content -->
 			<div class="greeting">
-				<h1>{{ profile.greeting }}</h1>
-				<h1>{{ profile.greeting2 }}</h1>
+				<h1>{{ texts.profile.greeting }}</h1>
+				<h1>{{ texts.profile.greeting2 }}</h1>
 			</div>
 			<div class="description">
-				<div class="mat-headline">{{ profile.description }}</div>
+				<div class="mat-headline">{{ texts.profile.description }}</div>
 			</div>
 			<!-- Link -->
-			<div class="button">
-				<button color="accent" mat-button>{{ profile.link }}</button>		
+			<div class="link">
+				<button color="accent" mat-button>{{ texts.profile.link }}</button>		
 			</div>
 		</div>
 	</div>

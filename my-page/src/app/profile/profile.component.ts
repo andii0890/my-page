@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
 import { Profile } from '../profile';
 
 @Component({
@@ -15,6 +15,11 @@ export class ProfileComponent implements OnInit {
     description: 'Trainee Developer Engineer actually working in Unosquare.',
     link: 'Please show me what are you working on.'
   };
+
+  @Output() changeLanguage = new EventEmitter();
+
+  @Input() texts;
+  @Input() currentLang;
 
   constructor() { }
 

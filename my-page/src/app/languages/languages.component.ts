@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
-import { fromEvent } from 'rxjs';
 
 @Component({
   selector: 'app-languages',
