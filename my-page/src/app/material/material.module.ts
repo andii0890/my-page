@@ -9,7 +9,7 @@ const MaterialComponents = [
   MatButtonToggleModule,
   MatGridListModule,
   MatSidenavModule
-]
+];
 
 @NgModule({
   imports: [MaterialComponents],

@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import langSpan from '../assets/i18n/es.json';
+import langEng from '../assets/i18n/en.json';
+
 
 @Component({
   selector: 'app-root',
@@ -10,32 +13,20 @@ export class AppComponent {
 
   currentLang = 'ES';
 
-  english = {
-    profile:
-    {
-      greeting: 'Hi.',
-      greeting2: 'I\'m Andrea',
-      description: 'Trainee Developer Engineer actually working in Unosquare.',
-      link: 'Please show me what are you working on.'
-      }
-  };
+  // english: any = JSON.parse(langSpan);
+  spanish = langSpan;
 
-  spanish = {
-    profile:
-    {
-      greeting: 'Hola.',
-      greeting2: 'Soy Andrea',
-      description: 'Desarrolladora Software Trainee trabajando actualmente en Unosquare.',
-      link: 'Por favor, muéstrame en qué estás trabajando.'
-      }
-  };
+  texts = ( <any>langSpan ).profile;
 
-  texts = this.spanish;
+  constructor() {
+    console.log(this.texts);
+  }
 
   onLanguageChange() {
-    if(this.currentLang === 'ES') {
+    console.log(this.texts);
+    if (this.currentLang === 'ES') {
       this.currentLang = 'EN';
-      this.texts = this.english;
+      // this.texts = this.english;
     } else {
       this.currentLang = 'ES';
       this.texts = this.spanish;

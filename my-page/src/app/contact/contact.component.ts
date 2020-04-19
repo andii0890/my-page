@@ -8,9 +8,9 @@ import { Contact } from '../contact';
 })
 export class ContactComponent implements OnInit {
 
-  // contact: Contact = {
+  contact: Contact = {
 
-  // };
+  };
 
   constructor() { }
 
