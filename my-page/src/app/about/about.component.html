@@ -1,20 +1,32 @@
-<h1>
-	{{ about.first_paragraph }} 
-</h1>
-{{ about.paragraph_description }}   
-<h1>
-	{{ about.second_paragraph }}  
-</h1>
-{{ about.paragraph_description2 }} 
-<h1>
-	{{ about.third_paragraph }}   
-</h1>  
-{{ about.paragraph_description3 }}   
+<div class="whoami">
+	<h1>
+		{{ texts.about.first_paragraph }} 
+	</h1>
+	{{ texts.about.paragraph_description1.paragraph_one }}   
+</div>
+<div class="whatdo">
+	<h1>
+		{{ texts.about.second_paragraph }}  
+	</h1>
+	{{ texts.about.paragraph_description2.paragraph_two }} 
+</div>
+<div class="help">
+	<h1>
+		{{ texts.about.third_paragraph }}   
+	</h1>  
+	{{ texts.about.paragraph_description3.paragraph_three }}   
+</div>
 <div class="graphic">
-	{{ about.abilities }}
-	{{ about.experience }}   
-	{{ about.hobbies }}  
-	{{ about.language }}   
-	{{ about.education }}   
-	{{ about.certifications }}  
+	<h6>
+		{{ texts.about.graphic.abilities }}
+		{{ texts.about.graphic.experience }}   
+		{{ texts.about.graphic.hobbies }}  
+		{{ texts.about.graphic.language }}   
+		{{ texts.about.graphic.education }}   
+	</h6>
+</div>
+<div class="sidebar">
+	<h1>
+		{{ texts.about.certifications }}  
+	</h1>
 </div>
