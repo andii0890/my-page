@@ -10,13 +10,8 @@ import langEng from '../assets/i18n/en.json';
 })
 export class AppComponent {
   title = 'my-page';
-
   currentLang = 'ES';
-
-  // english: any = JSON.parse(langSpan);
-  spanish = langSpan;
-
-  texts = ( <any>langSpan ).profile;
+  texts: any = langSpan;
 
   constructor() {
     console.log(this.texts);
@@ -26,10 +21,10 @@ export class AppComponent {
     console.log(this.texts);
     if (this.currentLang === 'ES') {
       this.currentLang = 'EN';
-      // this.texts = this.english;
+      this.texts = langEng;
     } else {
       this.currentLang = 'ES';
-      this.texts = this.spanish;
+      this.texts = langSpan;
     }
   }
 }
