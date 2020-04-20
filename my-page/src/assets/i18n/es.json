@@ -8,7 +8,7 @@
 	},
 	"about": {
 		"first_paragraph":"Quién soy?",
-		"paragraph_description": {
+		"paragraph_description1": {
 			"paragraph_one":"Cuando era niña desarrollé un gusto especial por los videojuegos y películas animadas, inspirandome por ello a desarrollar mi habilidad por el dibujo y crecer mi interés por la tecnología. Con el tiempo, me fuí desarrollando en áreas completamente diferentes, hasta que un día, tuve la oportunidad de entrar por completo al mundo de la tecnología, el mundo de la programación. Ahora soy una chica de 29 años, completamente inmersa en el mundo del aprendizaje. Cada día encuentro la motivación suficiente para desarrollarme profesionalmente y algún día alcanzar mi objetivo: Desarrollarme en el mundo digital: Animación y videojuegos."
 		},
 		"second_paragraph":"Qué hago?",
@@ -26,30 +26,26 @@
 			"languages":"idiomas",
 			"education":"educación"
 		},
-		"certifications": "certificaciones"
+		"certifications": "Certificaciones"
 	},
-	"title":"Work experience",
-	"work_experience": {
-	
-		"company1": "Unosquare",
+	"title":"Experiencia de trabajo",
+	"work_experience1": {
+		"company": "Unosquare",
 		"job_position":"Trainee Software Developer",
 		"date": "Ene 2020 - Actualmente",
 		"description":""
 	},
 	"work_experience2": {
-	
-		"company2": "Maskot",
+		"company": "Maskot",
 		"job_position":"Trainee Software Developer",
-		"date": "Ene 2020 - Now",
+		"date": "Nov 2020 - Ene 2020",
 		"description":""
 	},
 	"work_experience3": {
-	
-		"company3": "Other",
-		"job_position": "Trainee Software Developer",
-		"date": "Ene 2020 - Now",
+		"company": "Otro",
+		"job_position": "Alguna otra experiencia",
+		"date": "Aún no",
 		"description":""
 	},
-
 	"contact":"Podemos trabajar juntos?, Contáctame!"
 }
