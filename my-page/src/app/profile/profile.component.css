@@ -29,11 +29,13 @@
 
 .greeting{
 	margin-left: 55px;
+	margin-top: 90px;
 }
 
 .description .mat-headline{
 	margin-left: 55px;
-	font: 400 20px/32px Roboto,"Helvetica Neue",sans-serif;
+	margin-bottom: 75px;
+	font: 400 18px/32px Roboto,"Helvetica Neue",sans-serif;
 
 }
 
