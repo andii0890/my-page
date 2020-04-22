@@ -1,20 +1,22 @@
-<div class="container">
-	<app-profile 
-	[texts]="texts"
-	[currentLang]="currentLang"
-	(changeLanguage)="onLanguageChange()"
-	>
-	</app-profile>
-	<app-about 	
-	[texts]="texts"
-	>
-	</app-about>	
-	<app-languages
-	></app-languages>
-	<app-work-experience
-	[texts]="texts"
-	></app-work-experience>
-	<app-contact
-	[texts]="texts"
-	></app-contact>
-</div>
+<mat-grid-list cols="1" rowHeight="500px">
+	<mat-grid-tile> 
+		<app-profile 
+			[texts]="texts"
+			[currentLang]="currentLang"
+			(changeLanguage)="onLanguageChange()">
+		</app-profile>
+	</mat-grid-tile> 
+	<mat-grid-tile>
+		<app-about [texts]="texts"></app-about>	
+	</mat-grid-tile> 
+	<mat-grid-tile>
+		<app-work-experience [texts]="texts"></app-work-experience>
+	</mat-grid-tile> 
+	<mat-grid-tile>
+		<app-contact [texts]="texts"></app-contact>
+	</mat-grid-tile> 
+  </mat-grid-list>  
+
+
+
+
