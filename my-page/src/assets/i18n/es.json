@@ -33,19 +33,19 @@
 		"company": "Unosquare",
 		"job_position":"Trainee Software Developer",
 		"date": "Ene 2020 - Actualmente",
-		"description":""
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet nunc a lorem sagittis vehicula at sed ante. Ut vehicula, libero sit amet hendrerit condimentum, nisl orci accumsan tortor, ac feugiat tortor erat finibus nulla. "
 	},
 	"work_experience2": {
 		"company": "Maskot",
 		"job_position":"Trainee Software Developer",
 		"date": "Nov 2020 - Ene 2020",
-		"description":""
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet nunc a lorem sagittis vehicula at sed ante. Ut vehicula, libero sit amet hendrerit condimentum, nisl orci accumsan tortor, ac feugiat tortor erat finibus nulla. "
 	},
 	"work_experience3": {
 		"company": "Otro",
 		"job_position": "Alguna otra experiencia",
 		"date": "Aún no",
-		"description":""
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet nunc a lorem sagittis vehicula at sed ante. Ut vehicula, libero sit amet hendrerit condimentum, nisl orci accumsan tortor, ac feugiat tortor erat finibus nulla. "
 	},
 	"contact":"Podemos trabajar juntos?, Contáctame!"
 }

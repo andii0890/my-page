@@ -41,6 +41,7 @@ button {
 .section-two h2{
 	display: flex;
 	justify-content: flex-end;
+    margin-top: 35px;
 	margin-right: 95px;
 }
 
