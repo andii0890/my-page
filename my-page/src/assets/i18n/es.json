@@ -47,5 +47,6 @@
 		"date": "Aún no",
 		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet nunc a lorem sagittis vehicula at sed ante. Ut vehicula, libero sit amet hendrerit condimentum, nisl orci accumsan tortor, ac feugiat tortor erat finibus nulla. "
 	},
-	"contact":"Podemos trabajar juntos?, Contáctame!"
+	"contact1":"Podemos trabajar juntos?",
+	"contact2": "Contáctame!"
 }
