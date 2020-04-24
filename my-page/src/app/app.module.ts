@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { LanguagesComponent } from './languages/languages.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { ContactComponent } from './contact/contact.component';
+import { MouseScrollAnimationComponent } from './mouse-scroll-animation/mouse-scroll-animation.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     LanguagesComponent,
     WorkExperienceComponent,
-    ContactComponent
+    ContactComponent,
+    MouseScrollAnimationComponent
   ],
   imports: [
     BrowserModule,
