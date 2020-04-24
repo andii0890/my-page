@@ -1,0 +1,40 @@
+.mat-sidenav-container {
+	position: absolute;
+	background: gray;
+	width: 100%;
+	height: 100%;
+}
+
+.mat-sidenav {
+	width: 200px;
+}
+
+.mat-sidenav-content {
+	color: #ECF0F1;	
+}
+
+.mat-sidenav-content h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 70px 0px 40px 11px;
+	font-size: 32px;
+	font-weight: lighter;
+	letter-spacing: 0.5px;
+	opacity: .4;
+}
+
+.mat-sidenav-content h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 65px;
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	
+	margin: 100px;
+}

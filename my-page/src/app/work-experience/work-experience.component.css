@@ -1,4 +1,22 @@
-/* mat-sidenav-container {
-		position: initial;
-		
-} */
+.mat-grid-list {
+	background: gray;
+	width: 100%;
+}
+
+.mat-grid-tile {
+	color: white;
+	font-weight: lighter;
+	text-align: justify;
+    letter-spacing: 0.4px;
+    line-height: 1.4;
+	font-size: 11px;
+}
+
+.title h1 {
+font-size: large;
+font-weight: lighter;
+color: #ECF0F1;
+letter-spacing: 0.5px;
+margin-left: 57px;
+opacity: .4;
+}

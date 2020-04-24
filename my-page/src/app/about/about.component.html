@@ -1,22 +1,55 @@
-<div class="whoami">
-	<h1>
-		{{ texts.about.first_paragraph }} 
-	</h1>
-	{{ texts.about.paragraph_description1.paragraph_one }}   
-</div>
-<div class="whatdo">
-	<h1>
-		{{ texts.about.second_paragraph }}  
-	</h1>
-	{{ texts.about.paragraph_description2.paragraph_two }} 
-</div>
-<div class="help">
-	<h1>
-		{{ texts.about.third_paragraph }}   
-	</h1>  
-	{{ texts.about.paragraph_description3.paragraph_three }}   
-</div>
-<div class="graphic">
+<mat-sidenav-container>
+	<mat-sidenav #sidenav mode="side">
+		<div class="mat-sidenav-title">
+			<h1>
+				{{ texts.about.certifications }}  
+			</h1>	
+			<img src="../../assets/icons/certificate.png" alt="Diploma-icon">
+		</div>
+	</mat-sidenav>
+	<mat-sidenav-content>
+		<button mat-button (click)="sidenav.toggle()">
+			<img src="../../assets/icons/more.png" alt="">
+		</button>
+		<div class="text-container">
+			<div class="section-one">
+				<h2>
+					{{ texts.about.first_paragraph }} 
+				</h2>
+				<p>
+					{{ texts.about.paragraph_description1.paragraph_one }}   
+				</p>
+			</div>
+			<mat-grid-list cols="2" rowHeight="200px">
+				<mat-grid-tile>
+				</mat-grid-tile>
+				<mat-grid-tile>
+					<div class="section-two">
+						<h2>
+							{{ texts.about.second_paragraph }}  
+						</h2>
+						<p>
+							{{ texts.about.paragraph_description2.paragraph_two }} 
+						</p>
+					</div>
+				</mat-grid-tile>
+			</mat-grid-list>
+			<div class="section-three">
+				<h2>
+					{{ texts.about.third_paragraph }}   
+				</h2> 
+				<p>
+					{{ texts.about.paragraph_description3.paragraph_three }}   
+				</p> 
+			</div>
+
+		</div>
+	</mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
+<!-- <div class="whoami">
 	<h6>
 		{{ texts.about.graphic.abilities }}
 		{{ texts.about.graphic.experience }}   
@@ -25,8 +58,4 @@
 		{{ texts.about.graphic.education }}   
 	</h6>
 </div>
-<div class="sidebar">
-	<h1>
-		{{ texts.about.certifications }}  
-	</h1>
-</div>
+</div> -->
