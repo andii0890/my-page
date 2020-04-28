@@ -11,6 +11,9 @@ import { LanguagesComponent } from './languages/languages.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { ContactComponent } from './contact/contact.component';
 import { MouseScrollAnimationComponent } from './mouse-scroll-animation/mouse-scroll-animation.component';
+import { DonutChartComponent } from './donut-chart/donut-chart.component';
+import { ChartsModule } from 'ng2-charts';
+
 
 @NgModule({
   declarations: [
@@ -20,13 +23,15 @@ import { MouseScrollAnimationComponent } from './mouse-scroll-animation/mouse-sc
     LanguagesComponent,
     WorkExperienceComponent,
     ContactComponent,
-    MouseScrollAnimationComponent
+    MouseScrollAnimationComponent,
+    DonutChartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    ChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
