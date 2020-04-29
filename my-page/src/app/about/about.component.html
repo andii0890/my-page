@@ -22,6 +22,13 @@
 			</div>
 			<mat-grid-list cols="2" rowHeight="200px">
 				<mat-grid-tile>
+					<div *ngFor="let skill of skills">
+						<app-donut-chart
+							[text]="skill.name"
+							[level]="skill.level"
+							[data]="skill.data">
+						</app-donut-chart>				  
+					</div>
 				</mat-grid-tile>
 				<mat-grid-tile>
 					<div class="section-two">
