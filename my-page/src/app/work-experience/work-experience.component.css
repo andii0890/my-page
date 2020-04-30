@@ -16,27 +16,39 @@ h1 {
 	padding-top: 30px;
 } 
 
-
-/* 
-
 .description {
-	color: white;
+	color: #7a7878;
 	font-weight: lighter;
 	text-align: justify;
     letter-spacing: 0.4px;
     line-height: 1.4;
 	font-size: 9px;
+	padding: 15px 30px 15px 30px; 
 }
 
-.descriptions .description {
+.side-right {
 	display: flex;
 	flex-direction: column;
-}
-
-p {
-	margin: 30px 10px 40px 10px;
-}
-
-.second-column {
+	text-align: start;
+	padding-left: 80px;
 	
-} */
+}
+
+.side-left {
+	display: flex;
+	flex-direction: column;
+	text-align: end;
+	padding-right: 80px;
+}
+
+.company {
+	color: #ECF0F1;
+}
+
+.position {
+	font-size: xx-small;
+}
+
+.date {
+	font-size: x-small;
+}
