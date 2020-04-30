@@ -1,71 +1,65 @@
-<mat-grid-list cols="4" rowHeight="100px"> 
-	<mat-grid-tile colspan="1" rowspan="1">
-		<p>
-			{{texts.work_experience1.description}}
-		</p>
-	</mat-grid-tile>
-	<mat-grid-tile colspan="2">
-		<div class="title">
-			<h1>
-				{{texts.title}}
-			</h1>
-		</div>
-	</mat-grid-tile>
-	<mat-grid-tile class="col-3" rowspan="5">
-		<p>
-			{{texts.work_experience2.description}}
-		</p>
-	</mat-grid-tile>
-	<mat-grid-tile colspan="1" rowspan="5">
-		<p>
-			{{texts.work_experience3.description}}		
-		</p>
-	</mat-grid-tile>
-	<mat-grid-tile colspan="2" rowspan="4">
-		<mat-vertical-stepper>
-			<mat-step>
-				<ng-template matStepLabel>
-					<h4>
-						{{texts.work_experience1.company}}
-					</h4>
-					<h6>
-						{{texts.work_experience1.job_position}}
-					</h6>	
-					<h6>
-						{{texts.work_experience1.date}}
-					</h6>
-				</ng-template>
-				<ng-template>
-						<h4>
-							{{texts.work_experience2.company}}
-						</h4>
-						<h6>
-							{{texts.work_experience2.job_position}}
-							{{texts.work_experience2.date}}
-						</h6>
-				</ng-template>
-				<ng-template>
-						<h4>
-							{{texts.work_experience3.company}}
-						</h4>
-						<h6>
-							{{texts.work_experience3.job_position}}
-							{{texts.work_experience3.date}}
-						</h6>
-				</ng-template>
-			</mat-step>	
-		</mat-vertical-stepper>
-	</mat-grid-tile>
-</mat-grid-list>
-
-
-
-
-<!-- <div class="title">
+<div class="container">
 	<h1>
+		{{texts.title}}
 	</h1>
-		<h4>
-		</h4>
-</div>	
+	<mgl-timeline>
+		<mgl-timeline-entry>
+			<mgl-timeline-entry-header>Header</mgl-timeline-entry-header>
+			<mgl-timeline-entry-dot></mgl-timeline-entry-dot>
+			<mgl-timeline-entry-side>2018</mgl-timeline-entry-side>		
+		</mgl-timeline-entry>
+		<mgl-timeline-entry>
+			<mgl-timeline-entry-header>Header</mgl-timeline-entry-header>
+			<mgl-timeline-entry-side>2018</mgl-timeline-entry-side>		
+		</mgl-timeline-entry>
+		<mgl-timeline-entry>
+			<mgl-timeline-entry-header>Header</mgl-timeline-entry-header>
+			<mgl-timeline-entry-side>2018</mgl-timeline-entry-side>		
+		</mgl-timeline-entry>
+	</mgl-timeline>
+</div>
 
- -->
+	<!-- <mat-grid-list cols= 5 rowHeight= 400px>
+		<mat-grid-tile class="first-column" colspan="1">
+			<div class="descriptions">
+				<div class="description">
+					<p>
+						{{texts.work_experience1.description}}
+					</p>
+					<p>
+						{{texts.work_experience3.description}}
+					</p>
+				</div>
+				</div>
+		</mat-grid-tile>
+		<mat-grid-tile class="second-column" colspan="1">
+			<div class="company">{{texts.work_experience2.company}}</div>
+			<div class="position">{{texts.work_experience2.job_position}}</div>
+			<div class="date">{{texts.work_experience2.date}}</div>
+		</mat-grid-tile>
+		<mat-grid-tile class="third-column" colspan="1" >
+		</mat-grid-tile>
+		<mat-grid-tile class="fourth-column" colspan="1">
+			<div class="work-one" >
+				<div class="company">{{texts.work_experience1.company}}</div>
+				<div class="position">{{texts.work_experience1.job_position}}</div>
+				<div class="date">{{texts.work_experience1.date}}</div>
+			</div>
+			<div class="work-three">
+				<div class="company">{{texts.work_experience3.company}}</div>
+				<div class="position">{{texts.work_experience3.job_position}}</div>
+				<div class="date">{{texts.work_experience3.date}}</div>
+			</div>
+		</mat-grid-tile>
+		<mat-grid-tile class="fifth-column" colspan="1">
+			<div class="description">2{{texts.work_experience2.description}}</div>
+		</mat-grid-tile>
+	</mat-grid-list>
+</div> -->
+
+
+
+
+
+
+

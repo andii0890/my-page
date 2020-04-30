@@ -7,6 +7,8 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class WorkExperienceComponent implements OnInit {
 
+  alternate = true;
+
   @Input() texts;
 
   constructor() { }

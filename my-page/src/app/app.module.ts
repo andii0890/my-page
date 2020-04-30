@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MglTimelineModule } from 'angular-mgl-timeline';
 import { ProfileComponent } from './profile/profile.component';
 import { MaterialModule } from './material/material.module';
 import { AboutComponent } from './about/about.component';
@@ -31,7 +32,8 @@ import { ChartsModule } from 'ng2-charts';
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    ChartsModule
+    ChartsModule,
+    MglTimelineModule
   ],
   providers: [],
   bootstrap: [AppComponent]

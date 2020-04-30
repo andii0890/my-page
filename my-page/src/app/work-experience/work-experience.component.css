@@ -1,22 +1,42 @@
-.mat-grid-list {
-	background: gray;
+.container {
+	position: absolute;
 	width: 100%;
+	height: 100%;
+	background-color: gray;
 }
 
-.mat-grid-tile {
+h1 {
+	display: flex;
+	justify-content: center;
+	font-size: large;
+	font-weight: lighter;
+	color: #ECF0F1;
+	letter-spacing: 0.5px;
+	opacity: .4;
+	padding-top: 30px;
+} 
+
+
+/* 
+
+.description {
 	color: white;
 	font-weight: lighter;
 	text-align: justify;
     letter-spacing: 0.4px;
     line-height: 1.4;
-	font-size: 11px;
+	font-size: 9px;
 }
 
-.title h1 {
-font-size: large;
-font-weight: lighter;
-color: #ECF0F1;
-letter-spacing: 0.5px;
-margin-left: 57px;
-opacity: .4;
+.descriptions .description {
+	display: flex;
+	flex-direction: column;
 }
+
+p {
+	margin: 30px 10px 40px 10px;
+}
+
+.second-column {
+	
+} */
