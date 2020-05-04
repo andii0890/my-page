@@ -1,4 +1,4 @@
-<mat-grid-list cols="1" rowHeight="500px">
+<mat-grid-list cols="1" rowHeight="500px" gutterSize="0">
 	<mat-grid-tile> 
 		<app-profile 
 			[texts]="texts"
@@ -8,9 +8,9 @@
 	</mat-grid-tile> 
 	<mat-grid-tile>
 		<app-about [texts]="texts"></app-about>	
-	</mat-grid-tile> 
+	</mat-grid-tile>
 	<mat-grid-tile>
-		<app-work-experience [texts]="texts"></app-work-experience>
+		<app-work-experience class="work-experience" [texts]="texts"></app-work-experience>
 	</mat-grid-tile> 
 	<mat-grid-tile>
 		<app-contact [texts]="texts"></app-contact>

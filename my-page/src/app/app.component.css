@@ -1,5 +1,4 @@
 
 .mat-grid-tile > ::ng-deep figure {
 	display: block;
-	width: 100%;
 }

@@ -8,7 +8,6 @@ import { MglTimelineModule } from 'angular-mgl-timeline';
 import { ProfileComponent } from './profile/profile.component';
 import { MaterialModule } from './material/material.module';
 import { AboutComponent } from './about/about.component';
-import { LanguagesComponent } from './languages/languages.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { ContactComponent } from './contact/contact.component';
 import { MouseScrollAnimationComponent } from './mouse-scroll-animation/mouse-scroll-animation.component';
@@ -21,7 +20,6 @@ import { ChartsModule } from 'ng2-charts';
     AppComponent,
     ProfileComponent,
     AboutComponent,
-    LanguagesComponent,
     WorkExperienceComponent,
     ContactComponent,
     MouseScrollAnimationComponent,

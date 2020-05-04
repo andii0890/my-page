@@ -33,7 +33,13 @@
     display: flex;
 	justify-content: center;
 	margin-top: 16px;
-	font: 400 18px/32px Roboto,"Helvetica Neue",sans-serif;
+	padding-left: 15px;
+	font: 395 15px/32px Roboto,"Helvetica Neue",sans-serif;
+
+}
+
+.status {
+	padding-left: 20px;
 
 }
 
